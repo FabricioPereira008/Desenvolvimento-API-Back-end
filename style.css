@@ -1,0 +1,54 @@
+body{
+    background-color: antiquewhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#janela {
+    margin: auto;
+    align-self: center;
+    margin-top: 20rem;
+    border: 2px;
+    width: 25rem;
+    height: 10rem;
+    border-color: black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5%;
+    align-content: center;
+    box-shadow: 1px 1px 2px black;
+}
+
+#campot{
+    border-radius: 10%;
+    border: 0.5px;
+    height: 2rem;
+    width: 13rem;
+    box-shadow: 1px 1px 2px black;
+}
+
+#botao{
+    border: 0.5px;
+    border-radius: 10%;
+    margin-left: 0px;
+    margin: 0%;
+    height: 2rem;
+    width: 5rem;
+    background-color: rgb(92, 92, 211);
+    color: white;
+}
+
+#botao:hover{
+    border: 0.5px;
+    border-radius: 10%;
+    margin-left: 0px;
+    margin: 0%;
+    height: 2.1rem;
+    width: 5.1rem;
+    background-color: rgb(63, 63, 211);
+    color: white;
+    cursor:pointer;
+}
+
+#result:hover{
+    text-decoration: line-through;
+}
+
